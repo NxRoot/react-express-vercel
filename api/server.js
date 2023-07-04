@@ -11,3 +11,5 @@ app.get('/api/message', (req, res) => {
 const PORT = process.env.PORT || 8081
 console.log('Server started on port:',PORT)
 app.listen(PORT)
+
+module.exports = app
